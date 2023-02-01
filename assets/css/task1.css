@@ -1,0 +1,100 @@
+body {
+    background-color: #F2F2F2;
+}
+
+#products {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.card .top .product-img {
+    height: 315px;
+}
+
+.card .top .product-img img {
+    border-radius: 10px;
+}
+
+.card .top .content h2 {
+    font-weight: 600;
+}
+
+.card .top .content p:nth-child(2) {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.card .top .content p:nth-child(3) {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card .top .rating i {
+    color: #FF9E4A;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.card .bottom {
+    background-color: #0C82A0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.card .bottom a p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+
+.card .bottom p {
+    margin-bottom: 0;
+}
+
+.second-card-bottom {
+    background-color: #3D3E6C !important;
+}
+
+.last-card-bottom {
+    background-color: #FF9E4A !important;
+}
+
+
+@media (max-width:776px) {
+    .card .top .product-img {
+        height: 573px !important;
+    }
+
+    .card .top .content h2 {
+        font-size: 30px !important;
+    }
+
+    .card .top .content p {
+        font-size: 30px !important;
+    }
+
+    .card .bottom {
+        height: 80px !important;
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width:996px) and (min-width:776px) {
+    .card .top .content {
+        margin-top: 100px !important;
+    }
+}

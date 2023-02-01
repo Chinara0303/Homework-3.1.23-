@@ -1,0 +1,70 @@
+body{
+    background-color: #EBB32A;
+}
+#blog{
+    margin: 40px 0;
+}
+.box{
+    background-color: white;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.box .content h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box .content p:nth-child(2){
+    color: rgb(230, 50, 80);
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+    font-weight: 500;
+}
+.box .content p:nth-child(3){
+  color: rgb(102, 102, 102);
+  font-weight: 600;
+  font-size: 14px;
+}
+.links ul li{
+    background-color: blue;
+    width: 40px;
+    display: flex;
+    height: 40px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.links ul li:nth-child(3){
+    background-color: rgb(92, 92, 233);
+}
+.links ul li:nth-child(4){
+    background-color: rgb(238, 34, 194);
+}
+.links ul li a{
+    color: white;
+    font-size: 16px;
+}
+@media (max-width:996px) and (min-width:776px) {
+    .box .content h3{
+        font-size: 20px;
+        letter-spacing: normal !important;
+    }
+    .box .content p{
+        font-size: 12px !important;
+    }
+    .box .content .links ul{
+        width: 100%;
+    }
+    .box .content .links ul li{
+       margin-left: 10px;
+    }
+    
+    
+}
